@@ -21,3 +21,9 @@ I utilized the facenet-pytorch model as it gives us state-of-the-art face recogn
 - Possibly use a K-Nearest-Neighbors (KNN) clustering approach where for each image embedding, we classify it as an already stored face if it is close enough to another cluster of similar embeddings
 - Have a dynamic threshold for the Euclidean distance so that tokenization would be more accurate
 
+**Hardware Specs**
+- MacBook Pro (2019)
+- Processor: 2.3 GHz 8-Core Intel Core i9
+- Memory: 16 GB 2667 MHz DDR4
+- Graphics: AMD Radeon Pro 5500M 4 GB, Intel UHD Graphics 630 1536 MB
+- here is requirements.txt file
