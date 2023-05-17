@@ -26,4 +26,4 @@ I utilized the facenet-pytorch model as it gives us state-of-the-art face recogn
 - Processor: 2.3 GHz 8-Core Intel Core i9
 - Memory: 16 GB 2667 MHz DDR4
 - Graphics: AMD Radeon Pro 5500M 4 GB, Intel UHD Graphics 630 1536 MB
-- here is requirements.txt file
+- here is [requirements.txt] (https://github.com/yash94404/Engine/blob/main/requirements.txt) file
