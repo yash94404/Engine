@@ -15,6 +15,8 @@ I then compiled the times in which each unique face’s vector embedding first a
 
 I utilized the facenet-pytorch model as it gives us state-of-the-art face recognition performance while just using 128 bytes per face.  It directly understands the relationship between facial images and a condensed Euclidean space, where the distances accurately represent the level of similarity between faces. This allows us to use the Euclidean distance method to compare two faces. The facenet-pytorch model relies on MTCNN which uses cascaded convolutional neural networks and uses the correlation between face detection and alignment to improve efficiency. 
 
+An example of the results for a smaller portion of one of the videos from the test dataset is shown [here](https://github.com/yash94404/Engine/blob/main/result_example.mp4). The Engine class can be found at [Engine.ipynb](https://github.com/yash94404/Engine/blob/main/Engine.ipynb).
+
 **Future Improvements/Ideas**
 - Can improve the speed by sampling less frames (eg. sampling every 3rd frame such as the approach used by Fast MTCNN) and then performing face detection and tokenization on these sampled frames and extrapolating them to all frames
 - Export PyTorch model to ONNX (https://pytorch.org/tutorials/advanced/super_resolution_with_onnxruntime.html)
