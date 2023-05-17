@@ -12,6 +12,7 @@ I used the Inception-ResnetV1 model trained on the VGGFace2 Dataset which finds 
 I then compiled the times in which each unique face’s vector embedding first appeared in the video into a list of timestamps and a list of corresponding faces from each vector embedding formed by the bounding box. For tokenization, we’ll assign a unique ID to each face.
 
 **Performance Considerations**
+
 I utilized the facenet-pytorch model as it gives us state-of-the-art face recognition performance while just using 128 bytes per face.  It directly understands the relationship between facial images and a condensed Euclidean space, where the distances accurately represent the level of similarity between faces. This allows us to use the Euclidean distance method to compare two faces. The facenet-pytorch model relies on MTCNN which uses cascaded convolutional neural networks and uses the correlation between face detection and alignment to improve efficiency. 
 
 **Future Improvements/Ideas**
